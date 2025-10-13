@@ -58,7 +58,7 @@ body {
   flex-grow: 1;
 }
 /* Responsive Design */
-@media (max-width 768px)  {
+@media (max-width: 768px)  {
 .navbar-links  {
 display: none;
 flex-direction: column;
@@ -73,3 +73,5 @@ width: 100%;
 .navbar-checkbox:checked + .navbar-toggle +
 .navbar-links  {
 display: flex;
+}
+}
